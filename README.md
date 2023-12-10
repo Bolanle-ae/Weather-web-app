@@ -15,7 +15,7 @@ Interactive Input: Users can input a location, and the application fetches and d
 Project Structure:
 app.py: The main Python script containing the Flask application and integration with the weatherstack API.
 
-templates/: This directory includes the HTML files used for rendering the web pages, namely "indexx.html" for user input and "weather.html" for displaying weather statistics.
+Make sure to create a folder called templates in your file and add the HTML files used for rendering the web pages, namely "indexx.html" for user input and "weather.html" for displaying weather statistics.
 
 weather.ipynb: Jupyter notebook file providing a detailed walkthrough and explanation of the project, making it easy for others to understand and contribute.
 
