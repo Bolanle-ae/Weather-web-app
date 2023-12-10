@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather for {{ city_name }}</title>
+</head>
+<body>
+    <h1>Weather for {{ city_name }}</h1>
+    <p>Description: {{ weather_data['current']['weather_descriptions'][0] }}</p>
+    <p>Temperature: {{ weather_data['current']['temperature'] }}°C</p>
+</body>
+</html>
+
